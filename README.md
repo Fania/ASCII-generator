@@ -2,13 +2,25 @@
 
 ## HOW-TO
 
-1. install virtual env  
+1. install virtual env assuming python version 3.6 or higher  
+`python -m venv venv`
+
 2. pip install numpy, pillow, opencv-python  
+`pip install numpy`
+`pip install pillow`
+`pip install opencv-python`
+
 3. activate venv
+`. venv/bin/activate` or `venv\Scripts\activate`
 
 
 *no overlay*  
 `python video2video_color.py --input "data/celineX.mp4" --output "data/celineASCII_0.mp4" --overlay_ratio 0`
+
+or
+
+*with overlay*  
+`python video2video_color.py --input "data/celineX.mp4" --output "data/celineASCII.mp4"`
 
 
 
