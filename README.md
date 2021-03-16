@@ -8,7 +8,7 @@
 
 
 *no overlay*  
-`python video2video_color.py --input "celineX.mp4" --output "celineASCII_0.mp4" --overlay_ratio 0`
+`python video2video_color.py --input "data/celineX.mp4" --output "data/celineASCII_0.mp4" --overlay_ratio 0`
 
 
 
