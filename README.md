@@ -1,5 +1,20 @@
 # [PYTHON] ASCII generator
 
+## HOW-TO
+
+1. install virtual env  
+2. pip install numpy, pillow, opencv-python  
+3. activate venv
+
+
+*no overlay*  
+`python video2video_color.py --input "celineX.mp4" --output "celineASCII_0.mp4" --overlay_ratio 0`
+
+
+
+===
+
+
 ## Introduction
 
 Here is my python source code for ASCII generator. with my code, you could: 
